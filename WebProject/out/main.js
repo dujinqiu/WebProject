@@ -1,4 +1,4 @@
-function print(n) {
+function printpyramid(n) {
     for (var i = 1; i <= n; i++) {
         var str = "";
         for (var x = 0; x < n - i; x++) {
@@ -11,6 +11,6 @@ function print(n) {
     }
 }
 window.onload = function () {
-    print(3);
+    printpyramid(3);
 };
 //# sourceMappingURL=main.js.map

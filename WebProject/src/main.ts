@@ -1,16 +1,16 @@
-function print(n:number):void{
+function printpyramid(n:number):void{
     
     for(var i=1;i<=n;i++){
-        var str:string="";
+        var currentprint:string="";
         for(var x=0;x<n-i;x++){
-              str +=" ";
+              currentprint +=" ";
         }
        
         for(var y=0;y<i;y++){
-            str +="*";
+            currentprint +="*";
 
         }
-        console.log(str);
+        console.log(currentprint);
         
     }
 }
@@ -18,5 +18,5 @@ function print(n:number):void{
     
 
 window.onload = function( ) {
-   print(3);
+   printpyramid(3);
 };
